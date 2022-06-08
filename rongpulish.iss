@@ -50,7 +50,7 @@ Source: "D:\code\vs2022\RongMoniterServer\RongMoniterServer.exe"; DestDir: "{app
 [Icons]
 Name: "{group}\{cm:UninstallProgram,{#MyAppName}}"; Filename: "{uninstallexe}"
 [Run]
-; ´´½¨×ÔÆô¶¯
+; åˆ›å»ºWindowsæœåŠ¡å¹¶å¯åŠ¨æœåŠ¡ç¨‹åº
 Filename: {sys}\sc.exe; Parameters: "create RongMonitor8 start= auto binPath= ""{app}\{#MyAppExeName}""" ; Flags: runhidden
 Filename: {sys}\sc.exe; Parameters: "start RongMonitor8" ; Flags: runhidden 
 [UninstallRun]
